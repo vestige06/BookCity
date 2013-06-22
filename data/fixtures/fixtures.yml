@@ -1,0 +1,217 @@
+# # Populate this file with data to be loaded by your ORM's *:data-load task.
+# # You can create multiple files in this directory (i.e. 010_users.yml,
+# # 020_articles.yml, etc) which will be loaded in alphabetical order.
+# # 
+# # See documentation for your ORM's *:data-load task for more information.
+# 
+# User:
+#   fabien:
+#     username: fabien
+#     password: changeme
+#     name:     Fabien Potencier
+#     email:    fabien.potencier@symfony-project.com
+#   kris:
+#     username: Kris.Wallsmith
+#     password: changeme
+#     name:     Kris Wallsmith
+#     email:    kris.wallsmith@symfony-project.com
+
+User:
+  a1:
+    name:	chris1
+    password: 123
+    user_category_id: 1
+  a2:
+    name:	chris2
+    password: 123
+    user_category_id: 2
+  a3:
+    name:	chris3
+    password: 123
+    user_category_id: 3
+  a4:
+    name:	chris4
+    password: 123
+    user_category_id: 4
+  a5:
+    name:	chris5
+    password: 123
+    user_category_id: 1
+  a6:
+    name:	chris6
+    password: 123
+    user_category_id: 2
+  a7:
+    name:	chris7
+    password: 123
+    user_category_id: 3
+  a8:
+    name:	chris8
+    password: 123
+    user_category_id: 4
+  a9:
+    name:	chris9
+    password: 123
+    user_category_id: 1
+
+UserCategory:
+  b1:
+    user_category_id: 1
+    name: SuperAdminstor
+  b2:
+    user_category_id: 2
+    name: Adminstor
+  b3:
+    user_category_id: 3
+    name: Client
+  b4:
+    user_category_id: 4
+    name: Customer
+
+UserDetail:
+  c1:
+    email: 11@qq.com
+    tel: 13800000000
+    question: what
+    answer: gold
+    sex: 1
+  c2:
+    email: 11@qq.com
+    tel: 13800000000
+    question: what1
+    answer: gold1
+    sex: 0
+  c3:
+    email: 11@qq.com
+    tel: 13800000000
+    question: what2
+    answer: gold2
+    sex: 1
+  c4:
+    email: 11@qq.com
+    tel: 13800000000
+    question: what3
+    answer: gold3
+    sex: 0
+  c5:
+    email: 11@qq.com
+    tel: 13800000000
+    question: what
+    answer: gold
+    sex: 1
+  c6:
+    email: 11@qq.com
+    tel: 13800000000
+    question: what
+    answer: gold
+    sex: 1
+  c7:
+    email: 11@qq.com
+    tel: 13800000000
+    question: what
+    answer: gold
+    sex: 0
+  c8:
+    email: 11@qq.com
+    tel: 13800000000
+    question: what
+    answer: gold
+    sex: 0
+  c9:
+    email: 11@qq.com
+    tel: 13800000000
+    question: what
+    answer: gold
+    sex: 1
+
+
+BigBooksCategory:
+  f1:
+    big_books_category_id: 1
+    name: china
+  f2:
+    big_books_category_id: 2
+    name: english
+
+
+BooksCategory:
+  e1:
+    books_category_id: 1
+    name: science
+    big_books_category_id: 1
+  e2:
+    books_category_id: 2
+    name: art
+    big_books_category_id: 2
+  e3:
+    books_category_id: 3
+    name: math
+    big_books_category_id: 1
+  e4:
+    books_category_id: 4
+    name: music
+    big_books_category_id: 2
+
+Books:
+  d1:
+    name: computer_sciences
+    price: 5
+    description: 2
+    isbn: 13
+    author: 4
+    publisher: 5
+    is_onsale: 3
+    img: 22
+    books_category_id: 1
+  d2:
+    name: linear_algebra
+    price: 5
+    description: 2
+    isbn: 33
+    author: 4
+    publisher: 52
+    is_onsale: 3
+    img: 22
+    books_category_id: 3
+  d3:
+    name: calculus
+    price: 5
+    description: 23
+    isbn: 32
+    author: 42
+    publisher: 51
+    is_onsale: 31
+    img: 2222
+    books_category_id: 3
+  d4:
+    name: drawer
+    price: 511
+    description: 211
+    isbn: 31
+    author: 4
+    publisher: 5
+    is_onsale: 3
+    img: 22
+    books_category_id: 2
+  d5:
+    name: modern_music
+    price: 5
+    description: 2
+    isbn: 3
+    author: 4
+    publisher: 5
+    is_onsale: 3
+    img: 22
+    books_category_id: 4
+  d6:
+    name: composer
+    price: 51111
+    description: 2
+    isbn: 223
+    author: 4
+    publisher: 5
+    is_onsale: 3
+    img: 22
+    books_category_id: 4
+
+
